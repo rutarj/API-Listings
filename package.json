@@ -4,9 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js",
+    "Build":"npm i"
   },
-  "author": "Connor McDonald",
+  "author": "Rutarj Shah",
   "license": "ISC",
   "dependencies": {
     "body": "^5.1.0",
@@ -15,5 +17,6 @@
     "express": "^4.18.2",
     "mongoose": "^8.1.1",
     "parser": "^0.1.4"
+    
   }
 }
